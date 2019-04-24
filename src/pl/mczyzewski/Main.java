@@ -22,7 +22,7 @@ public class Main
 //        }
 
         int count = 0;
-        for (int x = 2; x < 13 ; x++)
+        for (int x = 2; x < 130 ; x++)
         {
             if (isPrime(x))
             {
@@ -49,8 +49,9 @@ public class Main
         {
             return false;
         }
-        for (int i = 2; i <= n / 2; i++)
+        for (int i = 2; i <=(long) Math.sqrt(n); i++)
         {
+            System.out.println("Loop " + n);
             if (n % i == 0)
             {
                 return false;
