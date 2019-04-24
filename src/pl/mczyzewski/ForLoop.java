@@ -5,6 +5,6 @@ public class ForLoop
 
     public static double calculateInterest(double amount,double intrestRate)
     {
-        return (amount * (intrestRate/100));
+        return (int) (amount * (intrestRate/100));
     }
 }
